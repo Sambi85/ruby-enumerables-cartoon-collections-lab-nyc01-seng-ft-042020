@@ -26,7 +26,7 @@ cheese_types = ["cheddar","gouda","camembert"]
 
 
 result1 = array.find do |food|
-  food == "cheddar"? food : nil 
+  food == "cheddar" or "gouda" ? food : nil 
 end
 
 pp result1
