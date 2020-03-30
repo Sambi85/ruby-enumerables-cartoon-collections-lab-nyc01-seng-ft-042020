@@ -27,5 +27,5 @@ cheese_types = ["cheddar","gouda","camembert"]
 result = array.map do |food_array| 
 food_array & cheese_types
   end
-pp result
+pp food_array & cheese_types
 end
