@@ -25,6 +25,6 @@ def find_the_cheese(array)# code an argument here
 cheese_types = ["cheddar","gouda","camembert"]
 
 array.map do |food_array| 
-food_array & cheese_types? "#{food_array}" : nil 
+food_array & cheese_types? "#{ : nil 
   end
 end
