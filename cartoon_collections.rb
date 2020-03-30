@@ -24,7 +24,8 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
 cheese_types = ["cheddar","gouda","camembert"]
 
-pp array.find do |food| 
+result = array.find do |food| 
 food.first == cheese_types.first
 end
+pp result
 end
