@@ -26,7 +26,7 @@ cheese_types = ["cheddar","gouda","camembert"]
 
 result1 = array.find do |food|
   food == "cheddar"
-  
+end
 result2 = array.find do |food|
   food == "gouda"
 end
