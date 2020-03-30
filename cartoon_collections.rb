@@ -26,7 +26,7 @@ cheese_types = ["cheddar","gouda","camembert"]
 
 
 result1 = array.map do |food|
-  food == cheese_types 
+  food & cheese_types 
 end
 
 pp result1
