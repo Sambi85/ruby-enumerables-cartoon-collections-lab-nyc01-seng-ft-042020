@@ -23,6 +23,6 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
 cheese_types = ["cheddar","gouda","camembert"]
-
-pp "#{array & cheese_types}"
+result = array & cheese_types
+pp result.to_s
 end
