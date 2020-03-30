@@ -23,7 +23,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
 cheese_types = ["cheddar","gouda","camembert"]
-result = cheese_types.find(array) do |food, cheese| food == cheese
+result = cheese_types.reduce(array) do |cheese, food| cheese == food
 end
 pp result
 end
