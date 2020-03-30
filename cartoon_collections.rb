@@ -23,10 +23,9 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
 cheese_types = ["cheddar","gouda","camembert"]
+pp array
 
 result = array.find do |food|
   "#{food}" == cheese_types end
 yield(result)
 end
-
-find_the_cheese(array) do |cheese|"#{cheese}" end
