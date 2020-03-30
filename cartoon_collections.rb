@@ -23,7 +23,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
 cheese_types = ["cheddar","gouda","camembert"]
-result = array.select do |food| food == cheese_types
+result = array.find do |food| food & cheese_types? return food : nil
   
 end
 pp result
